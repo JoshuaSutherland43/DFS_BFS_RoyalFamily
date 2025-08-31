@@ -16,5 +16,40 @@ namespace Prog_IceTask3
         {
             InitializeComponent();
         }
+
+        private void tvOutput_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+
+        }
+
+        private void txtSearchMember_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnGenerate_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUnderParent_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtAddChild_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dfsOutput_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bfsOutput_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
