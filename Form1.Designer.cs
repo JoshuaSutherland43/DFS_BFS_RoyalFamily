@@ -147,7 +147,6 @@
             this.bfsOutput.Size = new System.Drawing.Size(23, 25);
             this.bfsOutput.TabIndex = 10;
             this.bfsOutput.Text = "0";
-            this.bfsOutput.Click += new System.EventHandler(this.bfsOutput_Click);
             // 
             // dfsOutput
             // 
@@ -158,7 +157,6 @@
             this.dfsOutput.Size = new System.Drawing.Size(23, 25);
             this.dfsOutput.TabIndex = 11;
             this.dfsOutput.Text = "0";
-            this.dfsOutput.Click += new System.EventHandler(this.dfsOutput_Click);
             // 
             // Form1
             // 

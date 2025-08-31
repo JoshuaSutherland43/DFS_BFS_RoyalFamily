@@ -9,21 +9,17 @@ namespace Prog_IceTask3
     public class RoyalMember
     {
         public string Name { get; set; }
-        public DateTime DateOfBirth { get; set; }
-        public bool IsAlive { get; set; }
 
         public RoyalMember() { }
 
-        public RoyalMember(string name, DateTime dob, bool isAlive)
+        public RoyalMember(string name)
         {
             Name = name;
-            DateOfBirth = dob;
-            IsAlive = isAlive;
         }
 
         public override string ToString()
         {
-            return $"{Name} (Born {DateOfBirth.ToShortDateString()}, Alive: {IsAlive})";
+            return $"{Name}";
         }
     }
 }
